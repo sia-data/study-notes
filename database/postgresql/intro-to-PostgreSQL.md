@@ -1,24 +1,24 @@
-# 📚 Introduction to PostgreSQL: Beginner Notes
+# Introduction to PostgreSQL: Beginner Notes
 
 This document provides a beginner-friendly overview of PostgreSQL, focusing on its architecture, basic operations, and how to create and manage databases and tables using SQL.
 
 ---
 
-## 📌 What is PostgreSQL?
+## What is PostgreSQL?
 
 **PostgreSQL** (often abbreviated as **Postgres**) is an advanced, open-source **relational database management system (RDBMS)**. It supports complex queries, transactions, data integrity, and extensibility.
 
 ---
 
-## 🧱 Key Concepts
+## Key Concepts
 
-### 🔗 Relational Database
+### Relational Database
 
 - Organizes data into **tables** with rows and columns.
 - Each table represents a topic or entity (e.g., users, orders).
 - Tables can be connected through relationships (foreign keys).
 
-### 🧹 PostgreSQL in a Modular Data System
+### PostgreSQL in a Modular Data System
 
 - Can be used alongside tools like **Excel** and **Google Sheets** for data input/output.
 - Serves as a **backend database** for storing structured data.
@@ -26,7 +26,7 @@ This document provides a beginner-friendly overview of PostgreSQL, focusing on i
 
 ---
 
-## 🖥️ Server–Client Architecture
+## Server–Client Architecture
 
 - PostgreSQL operates on a **server–client model**:
   - **Server**: The PostgreSQL engine managing the database.
@@ -35,7 +35,7 @@ This document provides a beginner-friendly overview of PostgreSQL, focusing on i
 
 ---
 
-## 🏧 Database Structure
+## Database Structure
 
 - A single **PostgreSQL server instance** can host multiple **databases**.
 - A **database cluster** is a collection of databases managed by a single server.
@@ -46,7 +46,7 @@ This document provides a beginner-friendly overview of PostgreSQL, focusing on i
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ### 1. Install PostgreSQL
 
@@ -93,27 +93,27 @@ CREATE TABLE topic (
 
 ---
 
-## 🔧 CRUD Operations
+## CRUD Operations
 
-### ✅ Create
+### Create
 
 ```sql
 INSERT INTO topic (title) VALUES ('First Topic');
 ```
 
-### 📖 Read
+### Read
 
 ```sql
 SELECT * FROM topic;
 ```
 
-### 🔁 Update
+### Update
 
 ```sql
 UPDATE topic SET title = 'Updated Title' WHERE id = 1;
 ```
 
-### ❌ Delete
+### Delete
 
 ```sql
 DELETE FROM topic WHERE id = 1;
@@ -121,14 +121,14 @@ DELETE FROM topic WHERE id = 1;
 
 ---
 
-## 📌 Tips & Resources
+## Tips & Resources
 
 - Search for **"PostgreSQL cheat sheet"** to quickly reference syntax and commands.
 - Use GUI tools like **DBeaver** or **PgAdmin** for easier table and query management.
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Concept              | Description                                |
 |----------------------|--------------------------------------------|
