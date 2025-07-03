@@ -116,7 +116,7 @@ Dave McClure suggests focusing on **activation and retention first**, before pou
 
 ## Activation이란?
 
-\*\*Activation(실행)\*\*은 **사용자가 서비스의 핵심 가치를 처음으로 경험하는 순간**. 단순 가입을 넘어 장바구니 담기, 영상 시청, 프로필 작성과 같이 "의미 있는 행동"을 포함한다.
+**Activation(실행)**은 **사용자가 서비스의 핵심 가치를 처음으로 경험하는 순간**. 단순 가입을 넘어 장바구니 담기, 영상 시청, 프로필 작성과 같이 "의미 있는 행동"을 포함한다.
 
 ### 핵심 포인트
 
