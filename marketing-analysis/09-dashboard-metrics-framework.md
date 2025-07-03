@@ -1,4 +1,4 @@
-# Dashboard Metrics Framework (대시보드 지표 설계 프레임워크)
+# Dashboard Metrics Framework
 
 ## Overview
 
