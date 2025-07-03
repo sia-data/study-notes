@@ -1,4 +1,4 @@
-# Funnel Overview (퍼널 개요)
+# Funnel Overview
 
 ## What is Funnel Analysis?
 
